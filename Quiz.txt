@@ -1,0 +1,6 @@
+How much neutrons does it take to inititate nuclear fusion,One,Two,Three,Four,two
+Ohm's law is _____,V=IR,V=VR,V=QV,C=QV,V=IR
+Simpson's Method is a numerical method to find _____,roots,vertix,centre,radius,roots
+Which one is the fastest method?,Simpson,Bisection,Regula-Falsi,Newton,Newton
+Fourth derivative of displacement is called _____,Jerk,Snap,Kick,Push,Snap
+The concept of leap year was introduced in _____ calendar,Caesar,Islamic,Julian,Norse,Julian

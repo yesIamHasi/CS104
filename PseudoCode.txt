@@ -1,0 +1,26 @@
+main:
+	Open "Students.txt" in read mode ;
+	parse to an Array like DATA = {name, reg, score, name1, reg1, score1,...};
+	Split DATA into 3 arrays of the form {names only} {reg_no. only}, {scores only};
+	
+	Open "Quiz.txt" as readonly;
+	parse to an Array like QUIZ = {question, a, b, c, d, correct, question1, a1, ...};
+	Split QUIZ into 6 arrays of the form {quesitons only} {As only} {Bs only} {Cs only} {Ds only} {Correct only};
+	
+	Ask User for his name and registration;
+	Check if both registration number and name exists in database:
+		if true:
+			while quiz is not finished:
+				print quesiton[i];
+				print options[i];
+				ask for answer;
+				if answer is correct:
+					increase score by 4;
+				else
+					decrease score by 1/4;
+			Open "Students.txt" in write mode;
+			Write Score to "Students.txt";
+			finsih; // Logical end has reached
+		if false:
+			finish;
+	
